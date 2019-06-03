@@ -1,43 +1,46 @@
 body{
-	display:block;
-	margin:5%;
+	display:inline-block;
+	margin:5% 8%;
 	border:0.8vw solid MidnightBlue;
 	padding-left:5%;
-	padding-right:5%;
+	padding-right:5%;	
 	overflow:auto;
-	
+	width:70%;
 	
     }
 
 div.row{
-	display:block;
-	float:left;
-       }
-
-div.text{
-		clear:right;
-		color:#003399;
-		text-align:left;
-		
-		font-size:5vw;
+		display:block;
+		float:left;
 	}
+	
 
-ul {    
-      	padding:0px;
+h3{
+	color:#003399;
+	text-align:left;
+	font-size:1.5vw;
+	text-decoration:underline;
+  }
+
+ul {    color:#003399;
+	text-align:left;
+      	padding:0%;
 	list-style-type:circle;
+	font-size:1.5vw;
    }
 
 
 button{ 
-	margin-top:5%;
-	padding: 5px 10px;
-	border-radius: 2px;
+	
+	padding: 0.2vw 0.5vw;
+	border-radius:2px;
 	background-color:grey;
 	color: white;
 	font-size:1vw;
 	text-align: center;
   	display: inline;
-  	font-size: 16px;
+  	
+	
 			
 	 }
 
@@ -45,3 +48,33 @@ button:hover{
 	
 	color:rgb(200,200,200);
 	    } 
+
+@media only screen and  (max-width:500px){
+
+button{ 
+	font-size:2.25vw;	
+  	}
+
+ul {    
+	font-size:2.75vw;
+   }
+
+h3{
+	font-size:2.75vw;
+  }
+					}
+
+@media only screen and  (min-width:501px) and (max-width:750px) {
+
+button{ 
+	font-size:1.5vw;	
+  	}
+
+ul {    
+	font-size:2vw;
+   }
+
+h3{
+	font-size:2vw;
+  }
+					}
